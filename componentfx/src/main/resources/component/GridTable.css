@@ -1,0 +1,74 @@
+.grid-table {
+    -fx-border-color: #d1d1d1;
+    -fx-background-color: white;
+}
+
+.grid-table .table{
+    -fx-background-color: transparent;
+    -fx-border-color: red;
+    -fx-border-width: 0px;
+}
+
+.grid-table .table:focused{
+    -fx-background-color: transparent;
+}
+
+.grid-table .table .table-row-cell{
+    -fx-cell-size: 30px;
+}
+
+.grid-table .table .column-header {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+}
+
+.grid-table .table .column-header-background {
+    -fx-padding: 5;
+    -fx-background-color: white;
+    /*-fx-border-color:white white lightgray white;*/
+}
+.grid-table .table .column-header-background .label{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color:white white lightgray white;
+}
+
+.grid-table .table .column-header{
+    -fx-border-color:white white lightgray white;
+    -fx-background-color: white;
+}
+
+.grid-table .table .column-header-background .filler {
+    -fx-background-color: white;
+    -fx-border-color:white white lightgray white;
+}
+
+.grid-table .table .placeholder {
+    -fx-background-color: white;
+}
+
+.grid-table .pageable-pane {
+    -fx-border-color: #d1d1d1 transparent transparent transparent;
+    -fx-border-width: 0px;
+}
+
+.grid-table .tool-bar .button:hover {
+    -fx-background-color: #d1d1d1;
+}
+
+.grid-table .tool-bar .button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.grid-table .tool-bar {
+    -fx-background-color: transparent;
+    -fx-border-color:transparent;
+}
+
+.grid-table .master-detail-pane {
+    -fx-border-color: transparent;
+    -fx-padding: -1px;
+    -fx-border-width: 0px;
+    -fx-background-color: indianred;
+}

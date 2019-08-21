@@ -1,0 +1,29 @@
+@import "LdhWindow.css";
+
+.ldh-window>.ldh-window-control .label {
+    -fx-text-fill: white;
+    -fx-padding: 0 0 0 10px;
+    -fx-font-size: 20px;
+}
+
+/*.ldh-window>.ldh-window-control .label {*/
+    /*-fx-graphic: url();*/
+/*}*/
+.ldh-window .content-pane {
+    -fx-padding: 0px;
+}
+
+.ldh-window>ScrollPane:focused {
+    -fx-background-color: transparent;
+}
+
+.ldh-window>.ldh-window-control .window-icon {
+    -glyph-name: "WINDOWS";
+    -icons-color: white;
+    -glyph-size: 22px;
+    -fx-fill: white;
+}
+
+.ldh-window>.ldh-window-control {
+    -fx-padding: 0px 5px 0px 0px;
+}

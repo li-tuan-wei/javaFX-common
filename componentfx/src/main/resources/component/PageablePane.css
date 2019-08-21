@@ -1,0 +1,46 @@
+.pageable-pane {
+    /*-fx-border-color: grey;*/
+}
+
+.pageable-pane .first-btn-icon {
+    -glyph-name: "STEP_BACKWARD";
+    -icons-color: cornflowerblue;
+    -glyph-size: 18px;
+    -fx-fill: cornflowerblue;
+}
+
+.pageable-pane .before-btn-icon {
+    -glyph-name: "CARET_LEFT";
+    -icons-color: cornflowerblue;
+    -glyph-size: 18px;
+    -fx-fill: cornflowerblue;
+}
+
+.pageable-pane .next-btn-icon {
+    -glyph-name: "CARET_RIGHT";
+    -icons-color: cornflowerblue;
+    -glyph-size: 18px;
+    -fx-fill: cornflowerblue;
+}
+
+.pageable-pane .last-btn-icon {
+    -glyph-name: "STEP_FORWARD";
+    -icons-color: cornflowerblue;
+    -glyph-size: 18px;
+    -fx-fill: cornflowerblue;
+}
+
+.pageable-pane .refresh-btn-icon {
+    -glyph-name: "REFRESH";
+    -icons-color: cornflowerblue;
+    -glyph-size: 18px;
+    -fx-fill: cornflowerblue;
+}
+
+.pageable-pane .button {
+    -fx-background-color: transparent;
+}
+
+.pageable-pane .button:hover {
+    -fx-background-color: grey;
+}

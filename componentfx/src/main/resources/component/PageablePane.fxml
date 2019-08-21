@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import org.controlsfx.control.StatusBar?>
+
+<?import java.net.URL?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<fx:root type="javafx.scene.layout.HBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+         xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" styleClass="pageable-pane">
+    <children>
+        <ComboBox fx:id="pageSizeChoiceBox" prefWidth="100" ></ComboBox>
+        <Separator orientation="VERTICAL"/>
+        <Button fx:id="firstBtn" styleClass="first-btn" onAction="#firstPageAct"><graphic><FontAwesomeIconView styleClass="first-btn-icon"/></graphic></Button>
+        <Button fx:id="preBtn" styleClass="before-btn" onAction="#prePageAct"><graphic><FontAwesomeIconView styleClass="before-btn-icon"/></graphic></Button>
+        <Separator orientation="VERTICAL"/>
+        <Label text="Page"/>
+        <TextField fx:id="currentPageText" text="0" prefWidth="50" onAction="#pageAct"/>
+        <Label text="of"/>
+        <Label fx:id="totalPageLabel" text="0"/>
+        <Separator orientation="VERTICAL"/>
+        <Button fx:id="nextBtn" styleClass="next-btn" onAction="#nextPageAct"><graphic><FontAwesomeIconView styleClass="next-btn-icon"/></graphic></Button>
+        <Button fx:id="lastBtn" styleClass="last-btn" onAction="#lastPageAct"><graphic><FontAwesomeIconView styleClass="last-btn-icon"/></graphic></Button>
+        <Separator orientation="VERTICAL"/>
+        <Button fx:id="refreshBtn" styleClass="refresh-btn" onAction="#refreshPageAct"><graphic><FontAwesomeIconView styleClass="refresh-btn-icon"/></graphic></Button>
+        <ProgressBar fx:id="progressBar" prefWidth="10"/>
+        <Separator orientation="VERTICAL"/>
+        <Region HBox.hgrow="ALWAYS"/>
+        <Label fx:id="paginationInfo" text="Displaying 1 to 2 of 2 items"/>
+    </children>
+    <stylesheets>
+        <URL value="@PageablePane.css" />
+    </stylesheets>
+</fx:root>

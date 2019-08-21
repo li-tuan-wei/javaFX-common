@@ -1,0 +1,62 @@
+.ldh-window {
+    -fx-border-color: #007d71;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: #007d71;
+}
+
+.ldh-window>ScrollPane {
+    -fx-background-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: transparent;
+}
+
+.ldh-window>.ldh-window-control {
+    -fx-background-color: #007d71;
+    -fx-min-height: 35px;
+    -fx-pref-height: 35px;
+}
+
+.glyph-icon{
+    -fx-text-fill: -icons-color;
+    -fx-fill: -icons-color;
+    -glyph-size: 26px;
+}
+
+.ldh-window>.ldh-window-control>.button {
+    -fx-background-color: transparent;
+    -fx-content-display: graphic-only;
+}
+
+.ldh-window>.ldh-window-control>.button:hover {
+    -fx-background-color: grey;
+}
+
+.ldh-window .window-close-icon {
+    -glyph-name: "WINDOW_CLOSE";
+    -icons-color: white;
+    -glyph-size: 22px;
+    -fx-fill: white;
+}
+
+.ldh-window>.ldh-window-control .window-min-icon {
+    -glyph-name: "WINDOW_MINIMIZE";
+    -icons-color: white;
+    -glyph-size: 22px;
+    -fx-fill: white;
+}
+
+.ldh-window>.ldh-window-control .window-max-icon {
+    -glyph-name: "WINDOW_MAXIMIZE";
+    -icons-color: white;
+    -glyph-size: 22px;
+    -fx-fill: white;
+}
+
+.ldh-window>.ldh-window-control .window-restore {
+    -glyph-name: "WINDOW_RESTORE";
+    -icons-color: white;
+    -glyph-size: 22px;
+    -fx-fill: white;
+}

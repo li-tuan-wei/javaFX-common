@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import ldh.fx.component.table.GridTable?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<GridTable xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <items>
+        <Button text="text"></Button>
+    </items>
+    <columns>
+        <TableColumn text="First Name"  prefWidth="150"></TableColumn>
+        <TableColumn text="First Name1" prefWidth="150"></TableColumn>
+        <TableColumn text="First Name2" prefWidth="150"></TableColumn>
+        <TableColumn text="First Name3" prefWidth="150"></TableColumn>
+        <TableColumn text="First Name4" prefWidth="150"></TableColumn>
+    </columns>
+</GridTable>
